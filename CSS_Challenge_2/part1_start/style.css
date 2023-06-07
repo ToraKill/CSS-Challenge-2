@@ -1,0 +1,49 @@
+ul li:nth-child(odd) {
+  font-weight: bold;
+}
+
+div.wrapper {
+  background-color: #BADA55;
+  width: 80%;
+  margin: 0 auto;
+}
+
+*:not(p) {
+  color: #333;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.image {
+  filter: grayscale(100%);
+  transition: filter 0.5s; 
+}
+
+.image:hover {
+  filter: none;
+}
+
+.wrapper {
+  width: 80vw;
+  background-color: #f0f0f0; 
+  border: 1px solid #000; 
+  margin: 0 auto; 
+}
+
+.wrapper {
+  position: relative;
+  background-color: #0400ff; 
+  width: 100%;
+
+}
+
+.header {
+  width: 90%;
+  margin: 0 auto; 
+  
+}
